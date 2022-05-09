@@ -143,6 +143,10 @@ docs-selection = [
   "log",
 ]
 
+# these next two lines turn off doc tests
+[lib]
+doctest = false
+
 [dependencies]
 ahash = "0.7"
 anyhow = "1.0"
