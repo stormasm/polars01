@@ -17,6 +17,9 @@ This document reads from the bottom of this page to the top...
 * polars-utils
 
 After refactoring polars01 I decided to break out the architecture into
+a crates directory similar to the way
+[nushell](https://github.com/nushell/nushell) 
+is designed.
 
 ```rust
 [workspace]
